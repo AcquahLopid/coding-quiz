@@ -1,0 +1,29 @@
+*{
+    background-color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+h1 {
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    box-shadow: 10px 10px 10px blue;
+}
+p {
+    padding: 0 5%;
+}
+.Container {
+    display: flex;
+    justify-content: space-between;
+
+}
+#startButton{
+    display: block;
+    margin: 0 auto;
+}
+.time {
+   
+}
