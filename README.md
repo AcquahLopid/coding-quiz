@@ -8,7 +8,7 @@
 | CSS                     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |
 | Git                     | [https://git-scm.com/](https://git-scm.com/)     | 
 | JavaScript              | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-## Description
+## Project snippets
 
 ## Author information
 

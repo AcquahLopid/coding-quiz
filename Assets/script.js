@@ -1,23 +1,20 @@
 var listQuiz = document.querySelector("ul");
-var startQuiz = document.querySelector("#startQuiz");
-var time = document.querySelector("#time");
-var quizQuestions = document.querySelector("#quizQuestions");
-var 
-var
-var
+var startQuiz = document.getElementById("startQuiz");
+var time = document.getElementById("time");
+var quizQuestions = document.getElementById("quizQuestions");
 
 var timePlaceHolder = 0;
 var secondTimer = 60;
 var pickedQuestions = 0;
 
-startQuiz.addEventListener ("click" = function(){
+startQuiz.addEventListener("click", function(){
     if(timePlaceHolder === 0){
-        timePlaceHolder = setInterval (function(){
+        timePlaceHolder = setInterval(function(){
             secondTimer--;
             time.textContent = "Remaining Time: " + secondTimer;
 
             if (secondTimer <= 0){
-                clearInterval(timeHolder);
+                clearInterval(timePlaceHolder);
                 time.textContent = "TIMES UP";
             }
         }, 1000);
@@ -29,14 +26,14 @@ function output(pickedQuestions){
     quizQuestions.innerHTML = "";
     listQuiz.innerHTML = "";
     for (var i = 0; i < questions.length; i++){
-        var userInput = questions[pickedQuestions].ask;
+        var userInput = questions[pickedQuestions].title;
         var userOutput = questions[pickedQuestions].choices;
 
         quizQuestions.textContent = userInput;
     }
     userOutput.forEach(function (line){
         var listCreated = document.createElement("li");
-        listCreated.textContent = line;
+        listCreated.innerText = line;
         quizQuestions.appendChild(listQuiz);
         listQuiz.appendChild(listCreated);
         listCreated.addEventListener("click", (compare));
