@@ -9,7 +9,9 @@
 | Git                     | [https://git-scm.com/](https://git-scm.com/)     | 
 | JavaScript              | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 ## Project snippets
+made my time tick down by seconds 
 
+![Time interval](/images/Screenshot%202023-04-03%20235819.png)
 ## Author information
 
 ```MD
