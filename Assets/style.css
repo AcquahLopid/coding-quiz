@@ -1,16 +1,16 @@
 *{
-    background-color: gray;
+    /* background-color: black; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
 }
-h1 {
+header h1 {
     text-align: center;
     color: black;
-    background-color: aqua;
+    background-color: gold;
     margin-left: 30%;
     margin-right: 30%;
     padding: 10px;
-    box-shadow: 10px 10px 10px blue;
+    box-shadow: 10px 10px 10px red;
 }
 p {
     padding: 0 5%;
@@ -18,12 +18,26 @@ p {
 .Container {
     display: flex;
     justify-content: space-between;
+    color: yellow;
 
 }
 #startButton{
     display: block;
     margin: 0 auto;
 }
-.time {
-   
+h3 button{
+    text-align: center;
+    font-size: 100px;
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 10%;
+    background-color: yellow;
 }
+.indent{
+    text-align: center;
+    color: red;
+}
+/* .time {
+   
+} */
+
